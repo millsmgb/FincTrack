@@ -29,5 +29,7 @@ namespace FinancialsTracker.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<FinancialsTracker.Models.Purchase> Purchases { get; set; }
     }
 }
