@@ -7,13 +7,13 @@ namespace FinancialsTracker.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.1-30610")]
-    public sealed partial class MarsBar : IMigrationMetadata
+    public sealed partial class Initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(MarsBar));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201501290336319_Mars Bar"; }
+            get { return "201501290542379_Initial"; }
         }
         
         string IMigrationMetadata.Source

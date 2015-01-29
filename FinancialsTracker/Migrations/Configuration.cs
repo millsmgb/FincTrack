@@ -4,7 +4,6 @@ namespace FinancialsTracker.Migrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
-    using FinancialsTracker.Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<FinancialsTracker.Models.ApplicationDbContext>
     {
@@ -27,20 +26,6 @@ namespace FinancialsTracker.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
-
-            context.Purchases.AddOrUpdate(p => p.UserId,
-                new Purchase
-                {
-                    UserId = 1,
-                    Name = "Mars Bar",
-                    Price = 1,
-                    Quantity = 1,
-                    Latitude = -33.8185242,
-                    Longitude = 151.1927715,
-                    DateTime = @DateTime.Now,
-                    Location = "St. Leonard's",
-                });
-            
         }
     }
 }
