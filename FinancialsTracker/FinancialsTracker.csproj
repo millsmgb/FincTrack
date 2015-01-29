@@ -169,6 +169,10 @@
     <Compile Include="Migrations\201501290253486_initial.Designer.cs">
       <DependentUpon>201501290253486_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201501290336319_Mars Bar.cs" />
+    <Compile Include="Migrations\201501290336319_Mars Bar.Designer.cs">
+      <DependentUpon>201501290336319_Mars Bar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -253,6 +257,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201501290253486_initial.resx">
       <DependentUpon>201501290253486_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201501290336319_Mars Bar.resx">
+      <DependentUpon>201501290336319_Mars Bar.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
